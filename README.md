@@ -92,6 +92,52 @@ Then you can run robomongo from your terminal and it will work:
 $ robomongo
 ```
 
+
+# How to install NodeJs
+ref:- https://phoenixnap.com/kb/install-latest-node-js-and-nmp-on-ubuntu#:~:text=To%20install%20a%20particular%20version,the%20number%20of%20the%20version.&text=This%20will%20list%20all%20installed,the%20default%20and%20stable%20versions.
+
+If you do not have curl, install it by running:
+```
+sudo apt install curl
+```
+Press y to confirm the installation and hit Enter.
+
+2. Now, download the NVM installation script with the command:
+```
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
+```
+3. To enable nvm:
+
+Close and open the terminal or
+Run the given command
+4. Finally, check whether the installation was successful by verifying nvm version:
+```
+nvm --version
+```
+Once you have installed nvm, you can find a list of all the available Node.js versions with the command:
+```
+nvm ls-remote
+```
+Install a Specific Version
+
+For example for: nvm install 10.15.2
+
+To view all installed versions on your manager, use the command:
+```
+nvm ls
+```
+To check which version you are currently using, run the command:
+
+```
+node -v
+```
+To switch versions of Node.js (if you have already installed it on the NVM) enter the command:
+```
+nvm use 8.11.1
+```
+
+
+
 # How To Install MySQL on Ubuntu 18.04
 
 * Step 1 — Installing MySQL
